@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heroes Brawl</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="creationContainer">
+        <h2>Créateur de héros</h2>
+        <form action="">
+            <input type="text" placeholder="Nom" id="nomHero">
+            <label for="type">
+                Type:
+            </label>
+            <select name="" id="typeHero">
+                <option value="Guerrier">Guerrier</option>
+                <option value="Mage">Mage</option>
+                <option value="Vampire">Vampire</option>
+            </select>
+        </form>
+        <div class="imgSelectionContainer">
+            <h4>Choisi un avatar :</h4>
+            <div class="imgContainer">
+                <img src="img/hero1.png" alt="img">
+                <img src="img/hero2.png" alt="img">
+                <img src="img/hero3.png" alt="img">
+                <img src="img/hero4.png" alt="img">
+                <img src="img/hero5.png" alt="img">
+                <img src="img/hero6.png" alt="img">
+                <img src="img/hero7.png" alt="img">
+                <img src="img/hero8.png" alt="img">
+            </div>
+        </div>
+        <button class="button" id="addButton">Ajouter le héros</button>
+        
+    </div>
+
+    <div id="ArenaContainer">
+        <audio src="img/hit.wav" id="hitSound"></audio>
+        <h4>Arène</h4>
+        <div class="Arena">
+        </div>
+    </div>
+    
+</body>
+</html>
